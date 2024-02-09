@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Loose Fit</title>
+		<link id="styling" type="text/css" rel="stylesheet" href="css16.css" media="screen">
+		<script defer src="puzzleSpec.js"></script>
+		<script defer src="js16.js"></script>
+		<script defer src="/_vercel/insights/script.js"></script>
+	</head>
+	<body>
+		<div id="infoWall" class="Wall NoShow">
+			<img id="iwCtrlBack" src="backArrow.svg" alt="Back"/>
+
+			<img id="iwUkraineFlag" src="UkraineFlag.svg" alt="Flag"/>
+
+<!--			<button id="iwName" class="WallName InfoWallName"><strong>Information</strong></button> -->
+			<button id="iwNameBackground" type="button" class="WallNameBackground">&InvisibleTimes;</button>
+			<button id="iwNameForeground" type="button" class="WallNameForeground"><strong>Information</strong></button>
+			
+			<button id="iwPuzzleData" type="button"><strong>Puzzle #99&emsp;&boxh;&emsp;Solve by dd Mmm</strong></button>
+
+			<div id="iwSeparator-1"></div>
+
+			<p id="iwTTFeaturedWord" class="InfoTopicTitle"><strong>Featured Word</strong></p>
+<!--			<button id="iwTCFeaturedWord" type="button" class="InfoTopicContent FeaturedWord">
+				In English, it's Switzerland; in French, <strong>SUISSE</strong>; in German, Schweiz; in Italian, Svizzera.
+				Officially, it's Confoederatio Helvetica (CH) - the Latin name.
+			</button> -->		
+			<button id="iwTCFeaturedWord" type="button" class="InfoTopicContent FeaturedWord">Blurb</button>
+
+			<p id="iwTTInstructions" class="InfoTopicTitle"><strong>Instructions</strong></p>
+			<button id="iwTCInstructions-1" type="button" class="InfoTopicContent Instructions">
+				<strong>Fit the words into the grid.</strong>
+			</button>			
+			<button id="iwTCInstructions-2" type="button" class="InfoTopicContent Instructions">
+				Fill all the white squares. A number of coloured squares will remain blank.
+			</button>			
+			<button id="iwTCInstructions-3" type="button" class="InfoTopicContent Instructions Italic">
+				Best to watch the <strong>demonstration below</strong>.
+			</button>
+			
+			<img id="iwSurroundInstructions" class="NoShow" src="surroundInstructions.svg" alt="surround"/>
+
+			<p id="iwTTOtherPuzzles" class="InfoTopicTitle"><strong>Other Puzzles</strong></p>
+			<button id="iwTCDispensersLambda" type="button" class="InfoTopicContent InfoOtherPuzzles1">
+				<a href="https://dispensers-lambda.vercel.app">https://dispensers-lambda.vercel.app</a>
+			</button>
+			<button id="iwTCDispensersOmega" type="button" class="InfoTopicContent InfoOtherPuzzles1">
+				<a href="https://dispensers-omega.vercel.app">https://dispensers-omega.vercel.app</a>
+			</button>
+			<button id="iwTCDispensersPi" type="button" class="InfoTopicContent InfoOtherPuzzles1">
+				<a href="https://dispensers-pi.vercel.app">https://dispensers-pi.vercel.app</a>
+			</button>
+			<button id="iwTCLadderet" type="button" class="InfoTopicContent InfoOtherPuzzles2">
+				<a href="https://ladderet.vercel.app">https://ladderet.vercel.app</a>
+			</button>
+			
+			<p id="iwTTWhereIPost" class="InfoTopicTitle"><strong>Where I Post Puzzles</strong></p>
+			<button id="iwTCFacebook" type="button" class="InfoTopicContent InfoWhereIPost">Facebook&emsp;-&emsp;<span class="Italic">Weekday Puzzles</span> page</button>
+			<button id="iwTCMastodon" type="button" class="InfoTopicContent InfoWhereIPost">Mastodon&emsp;-&emsp;<span class="Italic">@PuzzleSmith@mas.to</span></button>
+			<button id="iwTCReddit" type="button" class="InfoTopicContent InfoWhereIPost">Reddit&emsp;-&emsp;<span class="Italic">u/G_F_Smith</span></button>
+			<button id="iwTCTwitter" type="button" class="InfoTopicContent InfoWhereIPost">X/Twitter&emsp;-&emsp;<span class="Italic">@PuzzleSmith</span></button>
+
+			<p id="iwTTLazyDog" class="InfoTopicTitle"><strong>Lazy Dog App</strong></p>
+			<button id="iwTCLazyDog-1" type="button" class="InfoTopicContent">
+				If you do crosswords or codewords, you might enjoy the challenge of a <strong>Lazy Dog</strong> word puzzle.
+				The puzzle exists as an app for iPhones and iPads: it's on App Store.
+				<br>
+				<br>
+				The app is <strong>not-for-profit</strong>. It is free to download. There are no ads. And it does not ask for any personal details.
+				<br>
+				<br>
+				Two screenshots:
+				</button>
+			<img id="iwTCLazyDog-2" src="lazyDog1.png" alt="Screenshot"/>
+			<img id="iwTCLazyDog-3" src="lazyDog2.png" alt="Screenshot"/>
+			<button id="iwTCLazyDog-4" type="button" class="InfoTopicContent">
+				<a href="https://apps.apple.com/gb/app/lazy-dog-word-puzzle-volume-1/id1502418993">https://apps.apple.com/gb/app/lazy-dog-word-puzzle-volume-1/id1502418993</a>
+			</button>
+			
+			<div id="iwCopyright">Copyright &copy; 2024 G F Smith</div>
+			
+			<div id="iwSeparator-2" class="DemoSeparator"></div>
+			<div id="iwSeparator-3" class="DemoSeparator"></div>
+			<div id="iwSeparator-4" class="ScreenshotSeparator"></div>
+			<div id="iwSeparator-5" class="ScreenshotSeparator"></div>
+
+			<div id="iwDoor" class="Door">			
+				<button id="iwdCtrlDemonstration" type="button" class="CtrlCommon">Demonstration</button>
+				<img id="iwdSurroundDemonstration" class="NoShow" src="surroundDemonstration.svg" alt="surround"/>
+
+				<button id="iwdCrossTick" type="button" class="CrossTick"><strong>&check;</strong></button>
+
+				<button id="iwdCtrlInformation" type="button" class="CtrlCommon CtrlSecondary">Information</button>
+				
+				<button id="iwdCtrlHint" type="button" class="CtrlCommon CtrlSecondary">Hint</button>
+				<img id="iwdSpotHint" class="SpotW8H8D6" src="spotW8H8D6.svg" alt="Spot"/>
+
+				<button id="iwdCtrlSolution" type="button" class="CtrlCommon CtrlSecondary">Solution</button>
+				<img id="iwdSpotSolution" class="SpotW8H8D6" src="spotW8H8D6.svg" alt="Spot"/>
+
+				<button id="iwdCtrlReset" type="button" class="CtrlCommon CtrlSecondary">Reset</button>
+				<img id="iwdSpotReset" class="SpotW8H8D6" src="spotW8H8D6.svg" alt="Spot"/>
+
+				<img id="iwdCtrlBackward" class="CtrlXward" src="buttonBackward.svg" alt="Backward"/>
+				<img id="iwdSpotBackward" class="SpotW8H10D6" src="spotW8H10D6.svg" alt="Spot"/>
+				
+				<img id="iwdCtrlForward" class="CtrlXward" src="buttonForward.svg" alt="Forward"/>
+				<img id="iwdSpotForward" class="SpotW8H10D6" src="spotW8H10D6.svg" alt="Spot"/>
+			
+				<div id="iwdPanel">
+					<img id="iwdpGrid" class="Grid" src="grid.svg" alt="Grid"/>
+
+					<div id="iwdpHoleTop" class="Hole"></div>
+					<div id="iwdpHoleBottom" class="Hole"></div>
+					
+					<button id="iwdpCell-12" type="button" class="Cell Limb"></button>
+					<button id="iwdpCell-16" type="button" class="Cell Limb"></button>
+
+					<button id="iwdpCell-21" type="button" class="Cell Limb"></button>
+					<button id="iwdpCell-22" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-23" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-24" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-25" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-26" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-27" type="button" class="Cell Limb"></button>
+
+					<button id="iwdpCell-32" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-36" type="button" class="Cell Torso"></button>
+
+					<button id="iwdpCell-41" type="button" class="Cell Limb"></button>
+					<button id="iwdpCell-42" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-43" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-44" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-45" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-46" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-47" type="button" class="Cell Limb"></button>
+					
+					<button id="iwdpCell-52" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-56" type="button" class="Cell Torso"></button>
+
+					<button id="iwdpCell-61" type="button" class="Cell Limb"></button>
+					<button id="iwdpCell-62" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-63" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-64" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-65" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-66" type="button" class="Cell Torso"></button>
+					<button id="iwdpCell-67" type="button" class="Cell Limb"></button>
+
+					<button id="iwdpCell-72" type="button" class="Cell Limb"></button>
+					<button id="iwdpCell-76" type="button" class="Cell Limb"></button>
+					
+					<button id="iwdpWord-1" type="button" class="Word WordLeft"><span id="iwdpWord-1-spelling">&thinsp;WORD1&thinsp;</span></button>
+					<button id="iwdpWord-2" type="button" class="Word WordRight"><span id="iwdpWord-2-spelling">&thinsp;WORD2&thinsp;</span></button>
+					<button id="iwdpWord-3" type="button" class="Word WordCentre"><span id="iwdpWord-3-spelling">&thinsp;WORD3&thinsp;</span></button>
+					<button id="iwdpWord-4" type="button" class="Word WordLeft"><span id="iwdpWord-4-spelling">&thinsp;WORD4&thinsp;</span></button>
+					<button id="iwdpWord-5" type="button" class="Word WordRight"><span id="iwdpWord-5-spelling">&thinsp;WORD5&thinsp;</span></button>		
+
+					<img id="iwdpSpotWord-1" class="SpotW8H10D6" src="spotW8H10D6.svg" alt="Spot"/>
+					<img id="iwdpSpotWord-2" class="SpotW8H10D6" src="spotW8H10D6.svg" alt="Spot"/>
+					<img id="iwdpSpotWord-3" class="SpotW8H10D6" src="spotW8H10D6.svg" alt="Spot"/>
+					<img id="iwdpSpotWord-4" class="SpotW8H10D6" src="spotW8H10D6.svg" alt="Spot"/>
+					<img id="iwdpSpotWord-5" class="SpotW8H10D6" src="spotW8H10D6.svg" alt="Spot"/>
+				</div>
+			</div>	
+		</div>
+		
+		<div id="mainWall" class="Wall NoShow">
+<!--			<button id="mwName" type="button" class="WallName"><strong>Loose Fit</strong></button> -->
+			<button id="mwNameBackground" type="button" class="WallNameBackground">&InvisibleTimes;</button>
+			<button id="mwNameForeground" type="button" class="WallNameForeground MainWallName"><strong>Loose Fit</strong></button>
+
+			<button id="mwCrossTick" type="button" class="CrossTick"><strong>&check;</strong></button>
+			
+			<div id="mwDoor" class="Door">	
+				<button id="mwdCtrlInformation" type="button" class="CtrlCommon CtrlSecondary">Information</button>
+				<img id="mwdSurroundInformation" class="NoShow" src="surroundInformation.svg" alt="surround"/>
+
+				<button id="mwdCtrlHint" type="button" class="CtrlCommon CtrlSecondary">Hint</button>
+				<button id="mwdCtrlSolution" type="button" class="CtrlCommon CtrlSecondary">Solution</button>
+			
+				<button id="mwdCtrlReset" type="button" class="CtrlCommon CtrlSecondary">Reset</button>		
+
+				<img id="mwdCtrlBackward" class="CtrlXward" src="buttonBackward.svg" alt="Backward"/>
+				<img id="mwdCtrlBackwardFlasher" class="CtrlXward" src="buttonBackwardFlasher.svg" alt="Flasher"/>
+
+				<img id="mwdCtrlForward" class="CtrlXward" src="buttonForward.svg" alt="Forward"/>
+				<img id="mwdCtrlForwardFlasher" class="CtrlXward" src="buttonForwardFlasher.svg" alt="Flasher"/>
+
+				<div id="mwdPanel">
+					<img id="mwdpGrid" src="grid.svg" alt="Grid"/>
+
+					<div id="mwdpHoleTop" class="Hole"></div>
+					<div id="mwdpHoleBottom" class="Hole"></div>
+					
+					<button id="mwdpCell-12" type="button" class="Cell Limb"></button>
+					<button id="mwdpCell-16" type="button" class="Cell Limb"></button>
+
+					<button id="mwdpCell-21" type="button" class="Cell Limb"></button>
+					<button id="mwdpCell-22" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-23" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-24" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-25" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-26" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-27" type="button" class="Cell Limb"></button>
+
+					<button id="mwdpCell-32" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-36" type="button" class="Cell Torso"></button>
+
+					<button id="mwdpCell-41" type="button" class="Cell Limb"></button>
+					<button id="mwdpCell-42" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-43" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-44" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-45" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-46" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-47" type="button" class="Cell Limb"></button>
+					
+					<button id="mwdpCell-52" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-56" type="button" class="Cell Torso"></button>
+
+					<button id="mwdpCell-61" type="button" class="Cell Limb"></button>
+					<button id="mwdpCell-62" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-63" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-64" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-65" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-66" type="button" class="Cell Torso"></button>
+					<button id="mwdpCell-67" type="button" class="Cell Limb"></button>
+
+					<button id="mwdpCell-72" type="button" class="Cell Limb"></button>
+					<button id="mwdpCell-76" type="button" class="Cell Limb"></button>
+					
+					<button id="mwdpWord-1" type="button" class="Word WordLeft"><span id="mwdpWord-1-spelling">&thinsp;WORD1&thinsp;</span></button>
+					<button id="mwdpWord-2" type="button" class="Word WordRight"><span id="mwdpWord-2-spelling">&thinsp;WORD2&thinsp;</span></button>
+					<button id="mwdpWord-3" type="button" class="Word WordCentre"><span id="mwdpWord-3-spelling">&thinsp;WORD3&thinsp;</span></button>
+					<button id="mwdpWord-4" type="button" class="Word WordLeft"><span id="mwdpWord-4-spelling">&thinsp;WORD4&thinsp;</span></button>
+					<button id="mwdpWord-5" type="button" class="Word WordRight"><span id="mwdpWord-5-spelling">&thinsp;WORD5&thinsp;</span></button>		
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+

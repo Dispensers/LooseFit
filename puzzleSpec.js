@@ -10,7 +10,7 @@ let punterPuzzleSpec = {
 		"She was the eponymous heroine of the novel JANICE Meredith by the American author Paul Leicester Ford."
 }
 */
-
+/*
 let punterPuzzleSpec = {
 	number: 15,
 	solveBy: "15 Feb",
@@ -22,19 +22,19 @@ let punterPuzzleSpec = {
 		"Its massive horns - up to 80cm in length - ensured it was heavily hunted. " +
 		"Considered to be the wild ancestor of modern domestic cattle. AUROCHS is both the singular and the plural."
 }
+*/
 
-/*
 let punterPuzzleSpec = {
 	number: 16,
 	solveBy: "22 Feb",
 	wordSpec: [undefined, "ROTTER", "TORPOR", "OPORTO", "RESORT", "PRESTO"],
-	hintSpec: ["N", [2, 5]],
+	hintSpec: ["T", [3, 6]],
 	solutionSpec: [undefined, [4, 2], [2, 2], [5, 2], [3, 1], [1, 1]],
 	featuredWordBlurb:
 		"OPORTO or Porto is Portugal's second city. " +
 		"It lies in the north of the country on the Douro River estuary. Port wine is produced in the Douro valley."
 }
-*/
+
 /*
 let punterPuzzleSpec = {
 	number: 17,

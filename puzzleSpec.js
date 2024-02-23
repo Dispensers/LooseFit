@@ -23,7 +23,7 @@ let punterPuzzleSpec = {
 		"Considered to be the wild ancestor of modern domestic cattle. AUROCHS is both the singular and the plural."
 }
 */
-
+/*
 let punterPuzzleSpec = {
 	number: 16,
 	solveBy: "22 Feb",
@@ -34,20 +34,20 @@ let punterPuzzleSpec = {
 		"OPORTO or Porto is Portugal's second city. " +
 		"It lies in the north of the country on the Douro River estuary. Port wine is produced in the Douro valley."
 }
+*/
 
-/*
 let punterPuzzleSpec = {
 	number: 17,
 	solveBy: "29 Feb",
 	wordSpec: [undefined, "QUEUES", "QUICHE", "QUEBEC", "SEQUEL", "UNIQUE"],
-	hintSpec: ["N", [2, 5]],
+	hintSpec: ["U", [1, 2]],
 	solutionSpec: [undefined, [4, 1], [5, 1], [2, 1], [3, 2], [1, 2]],
 	featuredWordBlurb:
 		"In 1995, QUEBEC very nearly set out on the path to independence. "+
 		"A referendum asking whether or not the province should separate from Canada resulted in a 49.42%-50.58% Yes-No verdict. " +
 		"Just 54,288 votes in it! Turnout was 93.52%!"
 }
-*/
+
 /*
 let punterPuzzleSpec = {
 	number: 18,

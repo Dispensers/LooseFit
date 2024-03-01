@@ -35,7 +35,7 @@ let punterPuzzleSpec = {
 		"It lies in the north of the country on the Douro River estuary. Port wine is produced in the Douro valley."
 }
 */
-
+/*
 let punterPuzzleSpec = {
 	number: 17,
 	solveBy: "29 Feb",
@@ -47,19 +47,19 @@ let punterPuzzleSpec = {
 		"A referendum asking whether or not the province should separate from Canada resulted in a 49.42%-50.58% Yes-No verdict. " +
 		"Just 54,288 votes in it! Turnout was 93.52%!"
 }
+*/
 
-/*
 let punterPuzzleSpec = {
 	number: 18,
 	solveBy: "7 Mar",
 	wordSpec: [undefined, "KNEELER", "NICKEL", "KENKEN", "ENCORE", "KEENER"],
-	hintSpec: ["N", [2, 5]],
+	hintSpec: ["E", [5, 2]],
 	solutionSpec: [undefined, [4, 1], [1, 2], [2, 1], [3, 2], [5, 1]],
 	featuredWordBlurb:
 		"KENKEN is a Sudoku-like puzzle. Invented in Japan in 2004. " +
 		"The puzzle has an arithmetic element as well as a logic element. This duality is making it a classroom hit!"
 }
-*/
+
 /*
 let punterPuzzleSpec = {
 	number: 19,

@@ -60,7 +60,7 @@ let punterPuzzleSpec = {
 		"The puzzle has an arithmetic element as well as a logic element. This duality is making it a classroom hit!"
 }
 */
-
+/*
 let punterPuzzleSpec = {
 	number: 19,
 	solveBy: "14 Mar",
@@ -71,19 +71,19 @@ let punterPuzzleSpec = {
 		"RISHI Sunak's occupancy of the Number 10 throne may be a little precarious, but he'll always be able to sit comfortably in his Richmond seat. " +
 		"The Yorkshire constituency has been held by the Tories for over 100 years."
 }
+*/
 
-/*
 let punterPuzzleSpec = {
 	number: 20,
 	solveBy: "21 Mar",
 	wordSpec: [undefined, "CAESAR", "SENATE", "SENECA", "SCENES", "SEANCE"],
-	hintSpec: ["N", [2, 5]],
+	hintSpec: ["E", [2, 6]],
 	solutionSpec: [undefined, [5, 2], [2, 1], [3, 1], [4, 2], [1, 2]],
 	featuredWordBlurb:
 		"SENECA was twice ordered to kill himself! When Caligula was offended by his success as an orator! " +
 		"(He survived because he was very ill and deemed to be as good as dead.) And when Nero decided he was part of an assassination plot."
 }
-*/
+
 /*
 let punterPuzzleSpec = {
 	number: 22,

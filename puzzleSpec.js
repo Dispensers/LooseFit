@@ -72,7 +72,7 @@ let punterPuzzleSpec = {
 		"The Yorkshire constituency has been held by the Tories for over 100 years."
 }
 */
-
+/*
 let punterPuzzleSpec = {
 	number: 20,
 	solveBy: "21 Mar",
@@ -83,19 +83,19 @@ let punterPuzzleSpec = {
 		"SENECA was twice ordered to kill himself! When Caligula was offended by his success as an orator! " +
 		"(He survived because he was very ill and deemed to be as good as dead.) And when Nero decided he was part of an assassination plot."
 }
+*/
 
-/*
 let punterPuzzleSpec = {
 	number: 22,
-	solveBy: "?? Apr",
+	solveBy: "9 May",
 	wordSpec: [undefined, "MISFIT", "INKING", "BIKINI", "NITWIT", "KINGPIN"],
-	hintSpec: ["R", [4, 1]],
+	hintSpec: ["I", [2, 5]],
 	solutionSpec: [undefined, [2, 1], [1, 2], [4, 1], [5, 2], [3, 1]],
 	featuredWordBlurb:
 		"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
 		"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
 };
-*/
+
 
 /* ================================================================================================================================================================ */
 

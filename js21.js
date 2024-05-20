@@ -1391,8 +1391,8 @@ class Demo {
 		this.controls["Hint"] = new Control("#iwdCtrlHint", null);
 		this.controls["Solution"] = new Control("#iwdCtrlSolution", null);
 		this.controls["Reset"] = new Control("#iwdCtrlReset", null);
-		this.controls["Forward"] = new Control("#iwdCtrlForward", null);
-		this.controls["Backward"] = new Control("#iwdCtrlBackward", null);
+		this.controls["Forward"] = new XwardControl("#iwdCtrlForward", null);
+		this.controls["Backward"] = new XwardControl("#iwdCtrlBackward", null);
 		this.controls["Word1"] = new WordControl(this.puzzle.words[1], "iwdpWord-1", null);
 		this.controls["Word2"] = new WordControl(this.puzzle.words[2], "iwdpWord-2", null);
 		this.controls["Word3"] = new WordControl(this.puzzle.words[3], "iwdpWord-3", null);

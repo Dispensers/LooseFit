@@ -424,9 +424,11 @@ body {
 #iwdSpotReset {grid-row:riwdSpotBottom-s/riwdSpotBottom-e; grid-column:ciwdSpotReset-s/ciwdSpotReset-e;}
 
 #iwdCtrlBackward {grid-row:riwdCtrlBackward-s/riwdCtrlBackward-e; grid-column:ciwdCtrlBackward-s/ciwdCtrlBackward-e;}
+#iwdCtrlBackwardFlasher {grid-row:riwdCtrlBackward-s/riwdCtrlBackward-e; grid-column:ciwdCtrlBackward-s/ciwdCtrlBackward-e;}
 #iwdSpotBackward {grid-row:riwdSpotBackward-s/riwdSpotBackward-e; grid-column:ciwdSpotBackward-s/ciwdSpotBackward-e;}
 
 #iwdCtrlForward {grid-row:riwdCtrlForward-s/riwdCtrlForward-e; grid-column:ciwdCtrlForward-s/ciwdCtrlForward-e;}
+#iwdCtrlForwardFlasher {grid-row:riwdCtrlForward-s/riwdCtrlForward-e; grid-column:ciwdCtrlForward-s/ciwdCtrlForward-e;}
 #iwdSpotForward {grid-row:riwdSpotForward-s/riwdSpotForward-e; grid-column:ciwdSpotForward-s/ciwdSpotForward-e;}
 
 #iwdPanel {

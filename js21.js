@@ -841,6 +841,11 @@ class XwardControl extends Control {
 		flashXwardControl(this.ref, this.flasherRef, solveBiz);		
 	}
 
+	//override fade() because an opacity of 0.5 is not enough
+	fade() {
+		if (this.isFrozen) return;
+		this.ref.style.opacity = `0.3`;
+	}
 	deconstruct() {
 		super.deconstruct()
 		this.flasherRef.style.display = `none`;

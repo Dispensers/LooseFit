@@ -1,4 +1,76 @@
 let puzzleSpecs = [
+/*
+	{
+		number: 28,
+		publishedOn: "dd Mmm 24",
+		wordSpec: [undefined, "ADELE", "DEADEN", "DUNDEE", "LAUDED", "DENUDE"],
+		hintSpec: ["I", [2, 5]],
+		solutionSpec: [undefined, [4, 2], [2, 1], [5, 2], [1, 1], [3, 1]],
+		featuredWordBlurb:
+			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
+			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
+	},
+
+	{
+		number: 27,
+		publishedOn: "dd Mmm 24",
+		wordSpec: [undefined, "EGGNOG", "OREGON", "GORGON", "GEORGE", "ORANGE"],
+		hintSpec: ["I", [2, 5]],
+		solutionSpec: [undefined, [5, 1], [2, 1], [4, 2], [1, 2], [3, 2]],
+		featuredWordBlurb:
+			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
+			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
+	},
+
+	{
+		number: 26,
+		publishedOn: "dd Mmm 24",
+		wordSpec: [undefined, "COCOON", "ROCOCO", "CORONA", "RACOON", "CACAO"],
+		hintSpec: ["I", [2, 5]],
+		solutionSpec: [undefined, [5, 1], [4, 2], [3, 2], [1, 2], [2, 2]],
+		featuredWordBlurb:
+			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
+			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
+	},
+
+	{
+		number: 25,
+		publishedOn: "dd Mmm 24",
+		wordSpec: [undefined, "MAPPED", "CAMPED", "DECAMP", "DEEMED", "MADCAP"],
+		hintSpec: ["I", [2, 5]],
+		solutionSpec: [undefined, [1, 2], [3, 1], [2, 2], [5, 1], [4, 2]],
+		featuredWordBlurb:
+			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
+			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
+	},
+
+	{
+		number: 24,
+		publishedOn: "dd Mmm 24",
+		wordSpec: [undefined, "RENEGE", "GERMANE", "GREENE", "EMERGE", "MEAGRE"],
+		hintSpec: ["I", [2, 5]],
+		solutionSpec: [undefined, [4, 1], [3, 1], [5, 2], [1, 2], [2, 1]],
+		featuredWordBlurb:
+			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
+			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
+	},
+*/
+	{
+		number: 23,
+		publishedOn: "11 Jun 24",
+		wordSpec: [undefined, "UNSEEN", "SPELLS", "NELLIE", "LUPINE", "SENILE"],
+		hintSpec: ["E", [5, 6]],
+		solutionSpec: [undefined, [4, 2], [2, 2], [5, 1], [1, 1], [3, 1]],
+		featuredWordBlurb:
+			"To Bombay a travelling circus came<br>" +
+			"They brought an intelligent elephant and Nellie was her name<br>" +
+			"One dark night she slipped her iron chain<br>" +
+			"And off she ran to Hindustan and was never seen again"
+	},
+
+
+
+
 	{
 		number: 22,
 		publishedOn: "22 Mar 24",

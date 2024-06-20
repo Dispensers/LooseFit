@@ -43,18 +43,18 @@ let puzzleSpecs = [
 			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
 			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
 	},
-
+*/
 	{
 		number: 24,
-		publishedOn: "dd Mmm 24",
+		publishedOn: "20 Jun 24",
 		wordSpec: [undefined, "RENEGE", "GERMANE", "GREENE", "EMERGE", "MEAGRE"],
-		hintSpec: ["I", [2, 5]],
+		hintSpec: ["E", [5, 7]],
 		solutionSpec: [undefined, [4, 1], [3, 1], [5, 2], [1, 2], [2, 1]],
 		featuredWordBlurb:
-			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
-			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
+			"Henry Graham GREENE saw himself as a writer of serious novels and ‘entertainments’. " +
+			"The Power and the Glory is an example of the former; the title comes from the Lord’s Prayer. " +
+			"Our Man in Havana, a spy thriller, is in the latter category."
 	},
-*/
 	{
 		number: 23,
 		publishedOn: "11 Jun 24",

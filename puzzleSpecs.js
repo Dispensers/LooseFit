@@ -51,7 +51,7 @@ let puzzleSpecs = [
 		hintSpec: ["E", [5, 7]],
 		solutionSpec: [undefined, [4, 1], [3, 1], [5, 2], [1, 2], [2, 1]],
 		featuredWordBlurb:
-			"Henry Graham GREENE saw himself as a writer of serious novels and ‘entertainments’. " +
+			"Graham GREENE saw himself as a writer of serious novels and ‘entertainments’. " +
 			"The Power and the Glory is an example of the former; the title comes from the Lord’s Prayer. " +
 			"Our Man in Havana, a spy thriller, is in the latter category."
 	},

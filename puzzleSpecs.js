@@ -32,18 +32,18 @@ let puzzleSpecs = [
 			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
 			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
 	},
-
+*/
 	{
 		number: 25,
-		publishedOn: "dd Mmm 24",
+		publishedOn: "2 Jul 24",
 		wordSpec: [undefined, "MAPPED", "CAMPED", "DECAMP", "DEEMED", "MADCAP"],
-		hintSpec: ["I", [2, 5]],
+		hintSpec: ["E", [5, 2]],
 		solutionSpec: [undefined, [1, 2], [3, 1], [2, 2], [5, 1], [4, 2]],
 		featuredWordBlurb:
-			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
-			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
+			"D<span style=\"font-variant:small-caps\">e</span>C<span style=\"font-variant:small-caps\">amp</span> is a surname of French/Dutch origin. " +
+			"For people who ‘worked the field’. " +
+			"So, equivalent to the English ‘Farmer’."
 	},
-*/
 	{
 		number: 24,
 		publishedOn: "20 Jun 24",

@@ -21,18 +21,18 @@ let puzzleSpecs = [
 			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
 			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
 	},
-
+*/
 	{
 		number: 26,
-		publishedOn: "dd Mmm 24",
+		publishedOn: "11 Jul 24",
 		wordSpec: [undefined, "COCOON", "ROCOCO", "CORONA", "RACOON", "CACAO"],
-		hintSpec: ["I", [2, 5]],
+		hintSpec: ["O", [2, 6]],
 		solutionSpec: [undefined, [5, 1], [4, 2], [3, 2], [1, 2], [2, 2]],
 		featuredWordBlurb:
-			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
-			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
+			"A stellar CORONA is the outermost layer of a star’s atmosphere. " +
+			"Counterintuitively, our Sun’s CORONA is much hotter than its surface. " +
+			"But, not as bright - it can only be seen with the naked eye during a solar eclipse."
 	},
-*/
 	{
 		number: 25,
 		publishedOn: "2 Jul 24",

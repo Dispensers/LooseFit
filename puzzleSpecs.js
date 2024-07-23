@@ -10,18 +10,17 @@ let puzzleSpecs = [
 			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
 			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
 	},
-
+*/
 	{
 		number: 27,
-		publishedOn: "dd Mmm 24",
+		publishedOn: "23 Jul 24",
 		wordSpec: [undefined, "EGGNOG", "OREGON", "GORGON", "GEORGE", "ORANGE"],
-		hintSpec: ["I", [2, 5]],
+		hintSpec: ["O", [4, 6]],
 		solutionSpec: [undefined, [5, 1], [2, 1], [4, 2], [1, 2], [3, 2]],
 		featuredWordBlurb:
-			"Frenchman Louis Rèard was an automobile engineer ... and a clothing designer! " +
-			"In 1946, he launched the BIKINI. He named it after the BIKINI Atoll (in the Marshall Islands), where a nuclear bomb had recently been tested."
+			"Medusa, she with living snakes for hair, was one of the three GORGON sisters. " +
+			"The only mortal one. She was beheaded by Perseus, the slayer of monsters."
 	},
-*/
 	{
 		number: 26,
 		publishedOn: "11 Jul 24",
